@@ -30,7 +30,7 @@ router.post('/add', (req, res) => {
         errors.push({ text: "Please add the employee's gender" });
     }
     if (!birthDate) {
-        errors.push({ text: "Please add the employee's date of birth " });
+        errors.push({ text: "Please add the employee's date of birth" });
     }
     if (!salary) {
         errors.push({ text: "Please add an employee's salary" });
