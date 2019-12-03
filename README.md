@@ -5,6 +5,7 @@ Employee Management System Project for Database Class (CSC 336 - Prof. John Conn
 * Backend - Node.js / Express and Sequelize (PostgreSQL)
 
 To Run:
+* Download or clone repository
 * Have Node / NPM and PostgreSQL installed 
 * Install node packages **npm i express body-parser sequelize pg pg-hstore express-handlebars**
 * Start PostgreSQL and Express server **npm run dev**
