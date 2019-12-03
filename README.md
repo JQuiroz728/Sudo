@@ -6,8 +6,8 @@ Employee Management System Project for Database Class (CSC 336 - Prof. John Conn
 
 To Run:
 * Have Node / NPM and PostgreSQL installed 
-* Install node packages 'npm i express body-parser sequelize pg pg-hstore express-handlebars'
-* Start PostgreSQL and Express server (npm run dev)
+* Install node packages **npm i express body-parser sequelize pg pg-hstore express-handlebars**
+* Start PostgreSQL and Express server **npm run dev**
 * Open localhost:5000/ and enjoy
 
 
