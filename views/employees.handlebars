@@ -1,0 +1,21 @@
+<section id="gigs" class="container">
+    <h1>All Employees</h1>
+
+    {{#each employees}}
+    <div class="gig">
+            
+    <h2>{{fullName}}</h2>
+    <p>Employee ID: {{id}}</p>
+    <p>{{birthDate}}</p>
+
+      <ul>
+        <li>Salary: {{salary}}</li>
+        <li>Hired: {{createdAt}}</li>
+      </ul>
+    </div>
+    {{else}}
+    <p>No current employees</p>
+    {{/each}}
+
+    
+</section>

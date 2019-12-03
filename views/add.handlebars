@@ -1,0 +1,33 @@
+  <section id="add" class="container">
+    <div class="form-wrap">
+      <h1>Add Employee</h1>
+      <p>Enter Employee Information</p>
+      {{#each errors}}
+        <div class="error">
+            <p>{{text}}</p>
+        </div>
+      {{/each}}
+      <form action="/employees/add" method="POST">
+        <div class="input-group">
+          <label for="title">Employee Full Name</label>
+          <input type="text" name="fullName" id="fullName" class="input-box" placeholder="eg. John Connor"
+            maxlength="100" value={{fullName}}>
+        </div>
+        <div class="input-group">
+          <label for="gender">Gender</label>
+          <input type="text" name="gender" id="gender" class="input-box" placeholder="eg. male"
+          maxlength="100" value={{gender}}>
+        </div>
+        <div class="input-group">
+          <label for="technologies">Date of Birth</label>
+          <input type="text" name="birthDate" id="birthDate" class="input-box" placeholder="eg. year-month-day"
+          maxlength="100" value={{birthDate}}>
+        </div>
+        <div class="input-group">
+          <label for="budget">Current Salary</label>
+          <input type="number" name="salary" id="salary" class="input-box" placeholder="eg. 100000" value={{salary}}>
+        </div>
+        <input type="submit" value="Add Employee" class="btn btn-reverse">
+      </form>
+    </div>
+  </section>
