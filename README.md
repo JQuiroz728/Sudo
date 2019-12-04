@@ -11,5 +11,6 @@ To Run:
 * Start PostgreSQL and Express server **npm run dev**
 * Open localhost:5000/ and enjoy
 
+Demo: https://www.youtube.com/watch?v=brCDKSotvjQ&t=63s
 
 
